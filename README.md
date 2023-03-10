@@ -15,7 +15,7 @@ This is the Art Gallery Website Challenge for FactoryPure. This application was 
 To view this applicaton locally use the HTTPS clone link on github and use the command git clone to pull it down to your machine. After that use whatever text editor you would like to view 
 the code.
 
-If you would like to view the version deployed to github pages you can use this link or go to the repository go to the Environments section 
+If you would like to view the version deployed to github pages you can use this link [github pages](https://maverickcavazos.github.io/FactoryPure-Art-Gallery/) or go to the repository go to the Environments section 
 on the bottom right of the page and click github-pages
 
 ## Credits
