@@ -1,0 +1,825 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+/* ============ INDEX.HTML STYLING ============ */
+
+.hero {
+    display: flex;
+    width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+
+.black-square {
+
+    width: 30%;
+    background-color: #151515;
+}
+
+.hero-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    left: 13.4%;
+    margin-top: 10%;
+    mix-blend-mode: difference;
+
+}
+
+.hero-text {
+    line-height: 32px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    position: absolute;
+    left: 63.3%;
+    margin-top: 10%;
+    width: 350px;
+
+}
+
+/* ========== OUR LOCATION BUTTON CSS ========== */
+
+.location-btn {
+    display: flex;
+    align-items: center;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    height: 72px;
+    position: absolute;
+    left: 63.3%;
+    top: 53%;
+    padding-left: 29px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.location-btn:active {
+    background-color: #D5966C;
+}
+
+.location-btn:active>img {
+    background-color: #151515;
+    content: url('../icon-arrow-right-dark.svg');
+}
+
+
+.right-btn-arrow {
+
+    background-color: #D5966C;
+    padding: 10px 10px 10px;
+    height: 52px;
+    width: 28px;
+}
+
+.location-btn div {
+    margin-right: 36px;
+}
+
+
+
+/* ==================== GALLERY SECTION CSS ========================= */
+
+/* ======== UPPER HALF GALLERY CONTAINER ======== */
+.gallerytxt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10%;
+}
+
+.gallerytxt h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+
+}
+
+.gallerytxt img {
+    position: relative;
+    width: 635px;
+}
+
+.gallerytxt p {
+    font-family: 'Outfit', sans-serif;
+    height: 128px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+/* ========= LOWER HALF GALLERY CONTAINER ========== */
+
+.gallerytwo {
+    display: flex;
+    justify-content: center;
+}
+
+.gallerytwo h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    height: 120px;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.gallerytwo p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.inspire {
+    width: 400px;
+    height: 377px;
+    padding: 8% 0% 0% 10%;
+    margin-top: 4%;
+    background-color: #151515;
+    color: white;
+
+}
+
+/* ======== MARGINS FOR UPPER HALF OF GALLERY CONTAINER ========= */
+.gall-one-margin-top {
+    width: 350px;
+    margin-top: 10%;
+}
+
+.gall-one-margin-right {
+    position: relative;
+    right: 2.8%;
+    width: 350px;
+    margin-right: 1.8%;
+
+
+}
+
+.gall-one-margin-left {
+    margin-left: 4.76%;
+}
+
+
+/* ======= MARGINS FOR BOTTOM HALF OF GALLERY CONTAINER =======  */
+.gall-two-margin-right {
+    margin-right: 3%;
+}
+
+.gall-two-margin-left {
+    margin-right: 3%;
+}
+
+.gall-two-margin-bottom {
+    margin-bottom: 10%;
+}
+
+/* ======== FOOTER STYLINE ========= */
+
+.homeFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 244px;
+    background-color: #151515;
+}
+
+.footer-txt {
+    display: flex;
+    align-items: center;
+}
+
+.footer-txt img {
+    height: 58px;
+    width: 159px;
+    margin-right: 80px;
+}
+
+.footer-txt h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 36px;
+    line-height: 36px;
+    margin-right: 120px;
+}
+
+.footer-txt p {
+    width: 430px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 80px;
+}
+
+
+.social-media img {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.facebook-home:active {
+    content: url("../icon-facebok-gold.svg");
+}
+
+.twitter-home:active {
+    content: url("../icon-twitter-gold.svg");
+}
+
+.instagram-home:active {
+    content: url("../icon-instagram-gold.svg");
+}
+
+/* ======================== STYLING FOR LOCATION.HTML ================= */
+
+/* ========= MAP AND HOME BUTTON STYLING ======== */
+
+.map {
+    display: block;
+}
+
+.home-btn {
+    display: flex;
+    align-items: center;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    height: 72px;
+    position: absolute;
+    left: 156px;
+    padding-right: 29px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.left-btn-arrow {
+    background-color: #D5966C;
+    padding: 10px 10px 10px;
+    height: 52px;
+    width: 28px;
+}
+
+.home-btn:active {
+    background-color: #D5966C;
+}
+
+.home-btn:active>img {
+    background-color: #151515;
+    content: url('../icon-arrow-left-dark.svg');
+}
+
+
+.home-btn div {
+    margin-left: 36px;
+}
+
+/* =========== LOCATION SECTION ============ */
+
+.location-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+    color: white;
+    height: 548px;
+}
+
+.location-txt {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.location-txt h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    width: 350px;
+    text-transform: uppercase;
+
+}
+
+.location-info div {
+    padding-top: 22px;
+}
+
+.location-txt div h2 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #D5966C;
+}
+
+.location-txt div p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    width: 544px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+
+/* ============ LOCATION PAGE FOOTER SECTION ============== */
+
+.locationFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #151515;
+    height: 244px;
+    background-color: #D5966C;
+}
+
+
+
+.social-media-location img {
+    margin-right: 5px;
+    margin-left: 5px;
+    fill: #151515;
+}
+
+.facebook:active {
+    content: url("../icon-facebook.svg");
+}
+
+.twitter:active {
+    content: url("../icon-twitter.svg");
+}
+
+.instagram:active {
+    content: url("../icon-instagram.svg");
+}
+
+
+@media (max-width:768px) {
+
+    /* ======= hero section CSS ======= */
+    .hero-title {
+        height: 130px;
+        font-size: 70px;
+        line-height: 65px;
+        width: 339px;
+        left: 51%;
+        top: 10%;
+        color: #151515;
+        mix-blend-mode: normal;
+    }
+
+    .hero-text {
+        top: 35%;
+        left: 51%;
+        width: 339px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .hero-image {
+        content: url("../tablet/image-hero.jpg");
+    }
+
+    .location-btn {
+        top: 69%;
+        left: 51%;
+    }
+
+    .black-square {
+        display: none;
+    }
+
+    /* ======= Gallery section CSS ======= */
+
+    /*    .gallery-container {
+        display: flex;
+    }
+ */
+
+    .gallerytxt {
+        display: flex;
+        margin-bottom: 12px;
+
+    }
+
+    .gallerytxt h1 {
+
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .gallerytxt p {
+        height: 140px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .gallerytxt img {
+        width: 398px;
+        margin-left: 2.5%;
+        height: 400px;
+        content: url("../tablet/image-grid-1.jpg");
+    }
+
+    .gall-one-margin-right {
+        width: 223px;
+        height: 299px;
+        margin-right: 3%;
+    }
+
+    .gall-one-margin-left {
+        margin-left: 1%;
+    }
+
+    .gallerytwo {
+        display: flex;
+    }
+
+    .image-two {
+        height: 720px;
+        width: 398px;
+        content: url('../tablet/image-grid-2.jpg');
+    }
+
+    .image-three {
+        height: 313px;
+        width: 280px;
+        content: url('../tablet/image-grid-3.jpg');
+
+    }
+
+    .inspire {
+        width: 225px;
+        height: 342px;
+        margin-top: 2%;
+        padding: 10% 10%;
+
+    }
+
+    .gallerytwo h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .gallerytwo p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .gall-two-margin-right {
+        margin-right: 1%;
+    }
+
+
+    /* ===== Footer CSS ===== */
+
+    .homeFooter {
+        height: 216px;
+    }
+
+    .footer-txt img {
+        padding-bottom: 60px;
+        height: 40px;
+        width: 110.5px;
+        margin-right: 0px;
+    }
+
+    .footer-txt p {
+        margin-left: 60px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        width: 281px;
+        height: 104px;
+    }
+
+    .social-media {
+        padding-bottom: 70px;
+    }
+
+    /* ============== LOCATION PAGE CSS ============== */
+
+    .map {
+        content: url("../tablet/image-map.png");
+    }
+
+    .home-btn {
+        left: 5%;
+    }
+
+    /* ===== location section CSS ===== */
+
+    .location-info {
+        height: 436px;
+
+    }
+
+    .location-txt h1 {
+        position: relative;
+        bottom: 17px;
+        width: 223px;
+        height: 100px;
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+    .location-txt div {
+        position: relative;
+        bottom: 30px;
+        width: 398px;
+        height: 268px;
+    }
+
+    .location-txt div h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .location-txt div p {
+        width: 398px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .locationFooter {
+        height: 216px;
+    }
+
+    .social-media-location {
+        padding-bottom: 70px;
+    }
+
+
+}
+
+
+@media (max-width: 375px) {
+
+    /* ========================== home page CSS ========================== */
+
+    /* ===== hero section CSS ===== */
+
+    body{
+        width: 100%;
+    }
+    .hero {
+        display: block;
+        width: 100%;
+        filter: none;
+    }
+
+    .hero-title {
+        position: relative;
+        height: 110px;
+        top: 10%;
+        left: 5%;
+        font-size: 60px;
+        line-height: 55px;
+
+    }
+
+    .hero-image {
+        width: 375px;
+        height: 240px;
+        content: url('../mobile/image-hero.jpg');
+    }
+
+    .hero-text {
+        position: relative;
+        font-size: 18px;
+        line-height: 28px;
+        left: 5%;
+    }
+
+    .location-btn{
+        position: relative;
+        width: 231.5px;
+        top: 20px;
+        left: 5%;
+    }
+
+
+    /* ===== GALLERY SECTION ===== */
+
+    .gallerytxt{
+      
+        display: block;
+        width: 343px;
+        
+       
+    }
+
+    .gall-one-margin-right{
+        position: relative;
+       top: 530px;
+        left: 4.5%;
+        margin-right: 0%;
+    }
+
+    .gallerytxt h1 {
+        font-size: 50px;
+        line-height: 45px;
+        height: 90px;
+        width: 300px;
+    }
+
+    .gallerytxt p {
+        width: 343px;
+        position: relative;
+        bottom: 4%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .gallerytxt img {
+        width: 343px;
+        position: relative;
+        bottom: 200px;
+        left: 2%;
+        content: url("../mobile/image-grid-1.jpg");
+    }
+
+
+    .gallerytwo{
+        display: block;
+    }
+
+    .image-two{
+        position: relative;
+        width: 343px;
+        left: 4%;
+        height: 480px;
+        top: 73px;
+        content: url("../mobile/image-grid-2.jpg");
+
+    }
+
+    .image-three{
+        position: relative;
+        top: 90px;
+        left: 4%;
+        width: 343px;
+        height: 200px;
+        content: url("../mobile/image-grid-3.jpg");
+    }
+
+    .inspire{
+        padding: 5px;
+        position: relative;
+        width: 334px;
+        height: 293px;
+        left: 4%;
+        top: 100px;
+    }
+
+    .inspire h1{
+        width: 295px;
+        height: 90px;
+        position: relative;
+        left: 7%;
+        top:2%;
+        font-size: 50px;
+line-height: 45px;
+    }
+
+    .inspire p{
+        position: relative;
+        left: 7%;
+        top:3%;
+        width: 294px;
+        height: 84px;
+        font-size: 18px;
+line-height: 28px;
+    }
+
+    .homeFooter{
+        display: block;
+        height: 336px;
+        width: 375px;
+        position: relative;
+        margin-top: 230px;
+     
+  
+    }
+
+    .footer-txt{
+        display: block;
+    }
+
+    .social-media{
+        padding-bottom: 10px;
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-left: 26px;
+    }
+
+
+/* ====== location page CSS ===== */
+
+.map{
+    content: url("../mobile/image-map.png");
+}
+
+.home-btn{
+    left: 0%;
+}
+
+.location-info{
+   
+    height: 493px;
+    width: 375px;
+}
+
+.location-txt{
+    display: block;
+    position: relative;
+    width: 100%;
+    bottom: 25px;
+}
+
+.location-txt h1{
+    width: 375px;
+    position: relative;
+    left:12px;
+    height: 0px;
+    font-size: 50px;
+line-height: 45px;
+}
+
+.location-txt div{
+    position: relative;
+    left: 5px;
+    margin: 10px;
+    width: 350px;
+}
+
+.location-txt div h2{
+    font-size: 32px;
+line-height: 32px;
+}
+
+.location-txt div p{
+    width: 343px;
+    font-size: 18px;
+line-height: 28px;
+}
+
+.locationFooter{
+    display: block;
+    height: 336px;
+    width: 375px;
+}
+
+.footer-txt img{
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.footer-txt p{
+    margin-left: 30px;
+    height: 104px;
+    width: 311px;
+    font-size: 16px;
+line-height: 26px;
+}
+
+.social-media-location{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 26px;
+}
+
+
+
+
+
+
+}
