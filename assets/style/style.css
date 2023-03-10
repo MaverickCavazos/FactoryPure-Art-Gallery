@@ -230,15 +230,15 @@ body {
 }
 
 .facebook-home:active {
-    content: url("../icon-facebok-gold.svg");
+    content: url('../icon-facebok-gold.svg');
 }
 
 .twitter-home:active {
-    content: url("../icon-twitter-gold.svg");
+    content: url('../icon-twitter-gold.svg');
 }
 
 .instagram-home:active {
-    content: url("../icon-instagram-gold.svg");
+    content: url('../icon-instagram-gold.svg');
 }
 
 /* ======================== STYLING FOR LOCATION.HTML ================= */
@@ -364,15 +364,15 @@ body {
 }
 
 .facebook:active {
-    content: url("../icon-facebook.svg");
+    content: url('../icon-facebook.svg');
 }
 
 .twitter:active {
-    content: url("../icon-twitter.svg");
+    content: url('../icon-twitter.svg');
 }
 
 .instagram:active {
-    content: url("../icon-instagram.svg");
+    content: url('../icon-instagram.svg');
 }
 
 
@@ -525,7 +525,7 @@ body {
     /* ============== LOCATION PAGE CSS ============== */
 
     .map {
-        content: url("../tablet/image-map.png");
+        content: url('../tablet/image-map.png');
     }
 
     .home-btn {
@@ -662,7 +662,7 @@ body {
         position: relative;
         bottom: 200px;
         left: 2%;
-        content: url("../mobile/image-grid-1.jpg");
+        content: url('../mobile/image-grid-1.jpg');
     }
 
 
@@ -676,7 +676,7 @@ body {
         left: 4%;
         height: 480px;
         top: 73px;
-        content: url("../mobile/image-grid-2.jpg");
+        content: url('../mobile/image-grid-2.jpg');
 
     }
 
@@ -686,7 +686,7 @@ body {
         left: 4%;
         width: 343px;
         height: 200px;
-        content: url("../mobile/image-grid-3.jpg");
+        content: url('../mobile/image-grid-3.jpg');
     }
 
     .inspire{
@@ -743,7 +743,7 @@ line-height: 28px;
 /* ====== location page CSS ===== */
 
 .map{
-    content: url("../mobile/image-map.png");
+    content: url('../mobile/image-map.png');
 }
 
 .home-btn{
