@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the Art Gallery Website Challenge for FactoryPure. This application was challenging and fun to design, it was made using pure HTML and CSS using the design specifications from a imported design on figma. It was also created with different screen sizes in mind creating specific versions for view widths of 1440px (desktop), 768px (tablet), and 375px (mobile).
+This is the Art Gallery Website Challenge for FactoryPure. This application was challenging and fun to design, it was made using pure HTML and CSS using the design specifications from an imported design on figma. It was also created with different screen sizes in mind creating specific versions for view widths of 1440px (desktop), 768px (tablet), and 375px (mobile).
 
 ## Table of Contents 
 
